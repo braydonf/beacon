@@ -1,0 +1,26 @@
+{
+  "title": "Feed Title",
+  "pollMinutes": 30,
+  "emailer": {
+    "host": "",
+    "port": 465,
+    "secure": true,
+    "auth": {
+      "user": "user@domain",
+      "password": "password"
+    },
+    "from": "user@domain"
+  },
+  "subscribers": [
+    {
+      "email": "user@domain"
+    }
+  ],
+  "keywords": ["keyword"],
+  "sources": [
+    {
+      "title": "Sample Feed",
+      "url": "https://sample.com/feed.xml"
+    }
+  ]
+}

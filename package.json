@@ -1,0 +1,17 @@
+{
+  "name": "beacon",
+  "version": "1.0.0",
+  "description": "A daemon that will watch RSS feeds and alert emails based upon keywords.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Braydon Fuller",
+  "license": "MIT",
+  "dependencies": {
+    "leveldown": "^1.4.3",
+    "levelup": "^1.3.1",
+    "nodemailer": "^1.10.0",
+    "xml2js": "^0.4.15"
+  }
+}
